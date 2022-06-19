@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.container li {
+  color: white;
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "Gill Sans MT";
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  left: -70px;
+}
+
+a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+
+.logo {
+  width: 70px;
+  position: relative;
+  left: -240px;
+  transform: rotate(180deg);
+}
