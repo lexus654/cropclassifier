@@ -1,21 +1,41 @@
-.flexContainer {
+.bg {
   background: url("../resource/imgs/bgplain.png");
-  width: 100vw;
-  height: 100vh;
+  height: 300vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-repeat: repeat;
+}
+.number {
+  font-family: "Gill Sans MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 42px;
+  color: #fbfbf2;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+.flexContainer {
   display: flex;
-  align-items: center;
   justify-items: center;
+  padding: 20px;
 }
 
 .imgContainer {
   margin-top: 80px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
-  width: auto;
+  height: auto;
+  width: 65%;
+}
+.modalContainer {
+  margin-top: 80px;
+  width: 25%;
   justify-content: center;
 }
 .plantsBtns {
@@ -31,13 +51,58 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 37px;
-  margin-top: -40px;
+  margin-top: -55px;
   text-align: center;
   color: #fbfbf2;
 }
 
 .plantsImgs {
-  width: 110px;
+  width: 115px;
   height: 170px;
   border-radius: 25px;
+  margin: 20px;
+}
+
+/* styles for modal */
+
+.intructions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intructionsImg {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+.intructionsTitle {
+  font-family: "Gill Sans MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 42px;
+  color: #fbfbf2;
+  text-align: left;
+}
+
+.instructionsHeadings {
+  font-family: "Gill Sans MT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #fbfbf2;
+}
+
+.instructionsBody {
+  font-family: "Gill Sans MT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  margin-top: 10px;
+  color: #fbfbf2;
+  list-style-type: disc;
 }
