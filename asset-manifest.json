@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cropclassifier/static/css/main.8e0307b2.css",
-    "main.js": "/cropclassifier/static/js/main.0b66b985.js",
+    "main.js": "/cropclassifier/static/js/main.81714318.js",
     "static/media/Muskmelon.png": "/cropclassifier/static/media/Muskmelon.242f90b869d579b001bb.png",
     "static/media/CoconutI.png": "/cropclassifier/static/media/CoconutI.f6480e08f186fa83e7a1.png",
     "static/media/Cotton.png": "/cropclassifier/static/media/Cotton.16c258cc5fdc2e900c6b.png",
@@ -42,10 +42,10 @@
     "static/media/logo.png": "/cropclassifier/static/media/logo.1048735269636a9c39d1.png",
     "index.html": "/cropclassifier/index.html",
     "main.8e0307b2.css.map": "/cropclassifier/static/css/main.8e0307b2.css.map",
-    "main.0b66b985.js.map": "/cropclassifier/static/js/main.0b66b985.js.map"
+    "main.81714318.js.map": "/cropclassifier/static/js/main.81714318.js.map"
   },
   "entrypoints": [
     "static/css/main.8e0307b2.css",
-    "static/js/main.0b66b985.js"
+    "static/js/main.81714318.js"
   ]
 }
