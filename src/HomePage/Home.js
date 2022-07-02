@@ -25,6 +25,7 @@ function Home(props) {
           <img className={styles.hand} alt="hand" src={hand}></img>
         </div>
       </div>
+      <iframe src="https://test-app-ronald.herokuapp.com/"></iframe>
     </main>
   );
 }

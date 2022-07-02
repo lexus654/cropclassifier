@@ -1,6 +1,14 @@
+/* iframe  container */
+iframe {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  height: 80vh;
+}
+
 .container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: url("../resource/imgs/bgfront.png");
   background-size: cover;
   display: flex;
@@ -12,6 +20,7 @@
 /* content  */
 
 .flexContainer {
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
