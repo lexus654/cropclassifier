@@ -20,16 +20,16 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import Home from "./HomePage/Home";
 import Members from "./Members/Members";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import Plant from "./Plant/Plant";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="members" element={<Members />} />
-      <Route path="home" element={<Home />} />
-      <Route path="plant" element={<Plant />} />
+      <Route path="/members" element={<Members />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/plant" element={<Plant />} />
     </Routes>
   </BrowserRouter>
 );
