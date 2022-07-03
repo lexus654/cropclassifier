@@ -1,22 +1,20 @@
 import "./App.css";
 import React from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./HomePage/Home";
 import Members from "./Members/Members";
-import { Link } from "react-router-dom";
+import Plant from "./Plant/Plant";
 
 function App() {
   return (
-    <div>
-      <h1>Bookkeeper</h1>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="home">Home</Link> |<Link to="/members">Memebers</Link>
-      </nav>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="members" element={<Members />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/plant" element={<Plant />} />
+      </Routes>
+    </Router>
   );
 }
 
