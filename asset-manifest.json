@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cropclassifier/static/css/main.e422c1e0.css",
-    "main.js": "/cropclassifier/static/js/main.c3163bc8.js",
+    "main.js": "/cropclassifier/static/js/main.d5262d83.js",
     "static/js/787.39561d64.chunk.js": "/cropclassifier/static/js/787.39561d64.chunk.js",
     "static/media/Muskmelon.png": "/cropclassifier/static/media/Muskmelon.242f90b869d579b001bb.png",
     "static/media/CoconutI.png": "/cropclassifier/static/media/CoconutI.f6480e08f186fa83e7a1.png",
@@ -43,11 +43,11 @@
     "static/media/logo.png": "/cropclassifier/static/media/logo.1048735269636a9c39d1.png",
     "index.html": "/cropclassifier/index.html",
     "main.e422c1e0.css.map": "/cropclassifier/static/css/main.e422c1e0.css.map",
-    "main.c3163bc8.js.map": "/cropclassifier/static/js/main.c3163bc8.js.map",
+    "main.d5262d83.js.map": "/cropclassifier/static/js/main.d5262d83.js.map",
     "787.39561d64.chunk.js.map": "/cropclassifier/static/js/787.39561d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e422c1e0.css",
-    "static/js/main.c3163bc8.js"
+    "static/js/main.d5262d83.js"
   ]
 }
